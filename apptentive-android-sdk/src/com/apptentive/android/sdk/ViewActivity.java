@@ -27,10 +27,6 @@ public class ViewActivity extends ApptentiveActivity {
 		activeModule = Module.valueOf(getIntent().getStringExtra("module"));
 
 		switch (activeModule) {
-			case ABOUT:
-				setContentView(R.layout.apptentive_about);
-				AboutModule.getInstance().doShow(this);
-				break;
 			case SURVEY:
 				setContentView(R.layout.apptentive_activity);
 				LayoutInflater inflater = getLayoutInflater();

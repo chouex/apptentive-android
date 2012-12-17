@@ -1,0 +1,45 @@
+<!--
+  ~ Copyright (c) 2012, Apptentive, Inc. All Rights Reserved.
+  ~ Please refer to the LICENSE file for the terms and conditions
+  ~ under which redistribution and use of this file is permitted.
+  --><resources>
+	<string name="apptentive_app_name">"Apptentive"</string>
+	<string name="apptentive_activity_name">"Apptentive"</string>
+
+    <string name="apptentive_default_host_app_name">"这个应用程序"</string>
+	<string name="apptentive_skip">"跳过"</string>
+	<string name="apptentive_cancel">"取消"</string>
+	<string name="apptentive_back">"后退"</string>
+	<string name="apptentive_send">"发送"</string>
+	<string name="apptentive_ok">"确定"</string>
+
+	<string name="apptentive_oops">"哦！"</string>
+
+	<string name="apptentive_feedback_title">"反馈"</string>
+	<string name="apptentive_edittext_feedback_message_forced">"反馈（必填）"</string>
+	<string name="apptentive_edittext_feedback_message">"我们可以做些什么，以确保您喜欢我们的应用程序？我们对此表示赞赏建设性的意见。"</string>
+
+	<string name="apptentive_edittext_email_text">"电子邮件地址"</string>
+
+	<string name="apptentive_branding_text">"反馈技术支持由Apptentive提供"</string>
+	<string name="apptentive_about_title">"关于Apptentive"</string>
+	<string name="apptentive_about_header_button_okay_text">"好了"</string>
+	<string name="apptentive_about_message_1">"此应用程序是使用Apptentive在应用程序的反馈服务，以更有效地听你的。"</string>
+	<string name="apptentive_about_message_2">"您的反馈主办的Apptentive，是受Apptentive的隐私政策和开发的隐私政策。"</string>
+
+	<string name="apptentive_enjoyment_message_fs">"你喜欢%s吗 ？"</string>
+	<string name="apptentive_rating_title">"谢谢"</string>
+	<string name="apptentive_rating_message_fs">"我们很高兴听到你喜欢%s 。这将会是非常有益的，如果您为我们在市场上。感谢这么多花一些时间与我们联系。"</string>
+	<string name="apptentive_rating_rate">"评价%s"</string>
+	<string name="apptentive_rating_remind">"\"稍后提醒我\";"</string>
+	<string name="apptentive_rating_no">"不，谢谢！"</string>
+	<string name="apptentive_rating_provider_no_android_market">"Android Market中没有被发现。请评分前安装Android市场的应用程序。"</string>
+	<string name="apptentive_rating_provider_no_mikandi">"MiKandi市场没有被发现。 ，请安装MiKandi市场评价这个应用程序之前，。"</string>
+	<string name="apptentive_rating_error">"我们不能够自动启动这个应用程序的评级。请访问应用程序的市场评级。"</string>
+
+    <string name="apptentive_survey_send_response">"发送响应"</string>
+    <string name="apptentive_survey_required">"需要"</string>
+    <string name="apptentive_survey_optional">"选项"</string>
+    <string name="apptentive_survey_success_title">"完成调查"</string>
+    <string name="apptentive_survey_positive_button">"确定"</string>
+</resources>

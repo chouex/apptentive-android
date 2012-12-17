@@ -25,7 +25,6 @@
 				<!-- This layout will hold whatever view we want to show -->
 			</LinearLayout>
 		</LinearLayout>
-		<include layout="@layout/apptentive_about"/>
 	</ViewFlipper>
 	<ScrollView android:layout_width="fill_parent"
 	            android:layout_height="fill_parent"

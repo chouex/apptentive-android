@@ -163,13 +163,6 @@ public class SurveyModule {
 			});
 		}
 
-		View brandingButton = activity.findViewById(R.id.apptentive_branding_view);
-		brandingButton.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View view) {
-				AboutModule.getInstance().show(activity);
-			}
-		});
-
 		LinearLayout questionList = (LinearLayout) activity.findViewById(R.id.aptentive_survey_question_list);
 
 		// Render the survey description

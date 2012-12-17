@@ -123,7 +123,7 @@ public class FeedbackModule {
 		private Context context;
 
 		public FeedbackDialog(Context context) {
-			super(context, android.R.style.Theme_Translucent_NoTitleBar);
+			super(context, android.R.style.Theme_Light_NoTitleBar);
 			this.context = context;
 		}
 
@@ -168,12 +168,6 @@ public class FeedbackModule {
 				}
 			});
 			send.setEnabled(false);
-
-			findViewById(R.id.apptentive_branding_view).setOnClickListener(new View.OnClickListener() {
-				public void onClick(View view) {
-					AboutModule.getInstance().show(context);
-				}
-			});
 
 			MetricModule.sendMetric(MetricModule.Event.feedback_dialog__launch, reason.name());
 			super.show();
